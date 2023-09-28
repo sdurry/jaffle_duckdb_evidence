@@ -1,8 +1,8 @@
-jaffle_shop:
+jaffle_duck_evidance:
 
   target: dev
   outputs:
     dev:
       type: duckdb
-      path: 'jaffle_shop.duckdb'
+      path: './reports/jaffle_shop.duckdb'
       threads: 24
